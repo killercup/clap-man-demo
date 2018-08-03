@@ -1,0 +1,11 @@
+[package]
+name = "clap-man-demo"
+version = "0.1.0"
+authors = ["Pascal Hertleif <killercup@gmail.com>"]
+
+[dependencies]
+clap = {git = "https://github.com/kbknapp/clap-rs", branch = "v3-master"}
+
+[build-dependencies]
+clap = {git = "https://github.com/kbknapp/clap-rs", branch = "v3-master"}
+clap_generate = {git = "https://github.com/yoshuawuyts/clap_generate", branch = "man"}
